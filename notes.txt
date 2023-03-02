@@ -1,0 +1,45 @@
+GIT NOTES:
+
+    -version control allows you to rollback updates and keep track of how files have changed over the course of a project
+    -a centralized version control system is a central server that several devs can pull old or current files from
+    -a local version control system is a local database of timestamped versions of a project stored on drive
+    -a distributed version control system is another online database, but they hold full mirrors of projects, so they can be cloned anywhere
+    -git is a distributed version control system
+    -to set a local default git branch to main, run:
+        <git config --global init.defaultBranch main>
+    -use <git add .> to add all files in a current directory to the staging location before a push
+    -use <git status> to check what files are ready to be pushed
+    -use <git commit -m "Enter push notes here"> to finalize changes to the push
+    -use <git push> to push all commited changes to a repo
+    -use <git clone <repo link>> to clone a repo
+    -use <git log> to get a log of push history to a repo
+    
+HTML NOTES:
+
+    -HTML stands for Hypertext Markup Language
+    -HTML elements are pieces of content wrapped in tags
+    -elements have opening and closing tabs, eg:
+        <p> This is text inside of a paragraph tag </p>
+    -not all elements have closing tabs, such as <br /> or <img />. these are self closing tags, containing all the content in just one tag.
+    -HTML needs a doctype tag to start, eg:
+        <!DOCTYPE html>
+    -all content in an html file is wrapped in an <html> tag, with a closing </html>
+    -use the vscode browser extention "HTML CSS Support" to do all this boilerplate
+    -HTML documents are composed of a <head> section and <body> section within the HTML tag
+    -all displayed content will be in the body of the document
+
+    HTML TAGS:
+        -<title> tags are for editing the text in a browser tab on your site. These go in the head.
+        -<h1> tags are for creating headings, large title texts. They can be sized up or down by changing the number in the tag.
+        -<p> tags are for creating paragraphs
+        -<strong> is a tag you can throw around specific pieces of text to make them bold
+        -<em> is a tag for text to italicise it
+        -to comment in html, use <!-- Comment Here -->
+        -use CTRL + / to shortcut a comment
+        -<ul> tags are for creating unordered lists
+
+
+
+CSS NOTES:
+
+    -CSS stands for Cascading Style Sheets
