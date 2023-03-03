@@ -42,10 +42,12 @@ HTML NOTES:
         -you can add attributes to tags in the opening tag, for <a> links, you can add 
             <a href="linkhere.com">Click me</a>
         -the <img> tag is for adding images to a page, this is a self closing element
-        
+
 
 
 
 CSS NOTES:
 
     -CSS stands for Cascading Style Sheets
+    -To grab a class in a CSS file, use a (.) before the class name
+    -to grab an ID in a CSS file, use a (#) before the ID name
