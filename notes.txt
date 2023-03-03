@@ -36,7 +36,13 @@ HTML NOTES:
         -<em> is a tag for text to italicise it
         -to comment in html, use <!-- Comment Here -->
         -use CTRL + / to shortcut a comment
-        -<ul> tags are for creating unordered lists
+        -<ul> tags are for creating unordered lists, they are tags that go around <li>, which stands for list item.
+        -<ol> are ordered lists, for creating lists where the order matters. These also use <li>.
+        -<a> tags are anchor tags for making text clickable to open a link
+        -you can add attributes to tags in the opening tag, for <a> links, you can add 
+            <a href="linkhere.com">Click me</a>
+        -the <img> tag is for adding images to a page, this is a self closing element
+        
 
 
 
