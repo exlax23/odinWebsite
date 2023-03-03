@@ -51,3 +51,16 @@ CSS NOTES:
     -CSS stands for Cascading Style Sheets
     -To grab a class in a CSS file, use a (.) before the class name
     -to grab an ID in a CSS file, use a (#) before the ID name
+    -ID beats class in ordee of operations
+    -Every element on a webpage is in a box, so using flex or box displays is an easy way to manage content layout.
+        -margin is the property of an element that determines its position in relation to other elements
+        -padding is the property of an element that determines the position of content inside of an element
+        -border adds space between the margin and padding, and allows a visible outline to appear on elements.
+    -flexbox is a more modern and ised way to organize elements in a webpage
+        -with flex, you can create flex-containers with flex items inside of them, and move them around as needed.
+        -you can also nest flex containers inside of each other
+        -use flex display on a container, and use a flex:1 preset for the items to keep sizing easy
+        -use flex-direction to change containers from columns to rows, horizontal or vertical
+        -justify-content is the easiest way to change position of flex items inside of flex containers; also try align-items for cross axis
+        -the gap attribute will help space out flex items inside of containers
+        -
