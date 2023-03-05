@@ -1,6 +1,8 @@
 body {
     background-color: #1F2937;
 }
+
+
 /* HEADER */
 
 .header {
@@ -10,7 +12,7 @@ body {
 }
 
 .header_logo {
-    margin-left:10%;
+    margin-left: 10%;
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bold;
@@ -59,14 +61,13 @@ body {
     margin-right: 10%;
 }
 
+
+
 /* INFO CONTAINER */
 
 .info_container {
-    border-width: 2px;
-    border-style: solid;
-    border-color: red;
     background-color: white;
-    padding: 5% 0;
+    padding: 4% 0;
 }
 
 .info_container h1 {
@@ -98,27 +99,72 @@ body {
     margin: auto;
 }
 
+
+
+/* QUOTE BOX */
+
 .quote_box {
-    border-width: 2px;
-    border-style: solid;
-    border-color: red;
     display: flex;
     color: #1F2937;
     font-size: 36px;
-    font-style:italic;
+    font-style: italic;
     background-color: #E5E7EB;
-    padding: 3% 25%;
+    padding: 4% 25%;
     flex-direction: column;
+
 }
 
 .quote_box p {
-    border-width: 2px;
-    border-style: solid;
-    border-color: red;
-    
+    margin-bottom: auto;
 }
 
 .thor {
     margin-left: 55%;
-    margin-bottom: 70%;
+}
+
+
+
+/* CALL TO ACTION */
+
+.call_to_action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    margin: 5% 20%;
+    padding: 2% 2%;
+    border-radius: 7px;
+    color: white;
+}
+
+.text_container {
+    margin-left: 10%;
+}
+
+.text_container p:first-child {
+    font-size: 150%;
+    
+}
+
+.text_container p:nth-child(2) {
+    color: red;
+}
+
+.button_container {
+    margin-right: 15%;
+}
+
+.button_container button {
+    border-width: 2px;
+    border-radius: 6%;
+    border-style: solid;
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 15% 50%;
+    white-space: nowrap;
 }
