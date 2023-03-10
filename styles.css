@@ -15,20 +15,24 @@ body {
 
 /* HEADER */
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     background-color: var(--dark-blue);
 }
 
-.header_logo {
+header h1 {
     margin-left: 15%;
     color: var(--light-white);
     font-size: 34em;
     font-weight: bold;
 }
 
-.header_list {
+nav {
+    margin: auto;
+}
+
+header ul {
     list-style-type: none;
     display: flex;
     padding: 0 1%;
@@ -37,19 +41,19 @@ body {
     align-items: center;
 }
 
-.header_list li {
-    margin: 0 4%;
+header ul li {
+    margin: 0 8%;
     white-space: nowrap;
 }
 
-.header_list li a {
+header li a {
     color: var(--light-white);
     text-decoration: none;
     font-size: 26em;
 
 }
 
-.header_content {
+.top_content {
     display: flex;
     padding-bottom: 11%;
     padding-top: 5%;
@@ -57,7 +61,7 @@ body {
     margin-bottom: 0;
 }
 
-.header_content button {
+.top_content button {
     background-color: var(--light-blue);
     border-radius: 9px;
     color: var(--light-white);
@@ -67,20 +71,19 @@ body {
     padding: 2% 9%;
 }
 
-.header_left {
+.top_left {
     margin-left: 15%;
     margin-right: 15%;
-
 }
 
-.header_left h1 {
+.top_left h1 {
     font-size: 68em;
     margin: 0;
     margin-top: 10%;
     margin-bottom: 0%;
 }
 
-.header_left p {
+.top_left p {
     font-size: 26em;
     color: var(--light-white);
     padding-top: 0;
@@ -89,7 +92,7 @@ body {
     margin-bottom: 3%;
 }
 
-.header_right {
+.top_right {
     margin-right: 10%;
 }
 
@@ -223,7 +226,7 @@ body {
     white-space: nowrap;
 }
 
-.copyright {
+footer p {
     display: flex;
     justify-content: center;
     color: white;
